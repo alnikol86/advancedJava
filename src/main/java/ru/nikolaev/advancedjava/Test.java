@@ -1,24 +1,28 @@
 package main.java.ru.nikolaev.advancedjava;
 
 public class Test {
-    public static void main(String[] args) {
-        MyThread myThread = new MyThread();
-        myThread.start();
+    public static void main(String[] args) throws InterruptedException {
 
-        MyThread myThread2 = new MyThread();
-        myThread2.start();
+        Thread thread = new Thread(new MyThread());
+        thread.start();
+
+        System.out.println("Hello from main thread");
+        Thread.sleep(3000);
+        System.out.println("Bye from main thread");
     }
 }
 
-class MyThread extends Thread {
+class MyThread implements Runnable {
+
+    @Override
     public void run() {
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 0; i < 100; i++) {
+            System.out.println("Hello from MyThread " + i);
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            System.out.println("Hello from MyThread " + i);
         }
     }
 }
