@@ -44,35 +44,9 @@
       <recent name="E:\Programming\Java\Java_projects\advancedJava" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProducerConsumer">
+  <component name="RunManager" selected="Application.ProducerConsumerTwo">
     <configuration name="BlockSynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.BlockSynchronized" />
-      <module name="advancedJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.ru.nikolaev.advancedjava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KeySynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.KeySynchronized" />
-      <module name="advancedJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.ru.nikolaev.advancedjava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KeyVolatile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.KeyVolatile" />
       <module name="advancedJava" />
       <extension name="coverage">
         <pattern>
@@ -97,8 +71,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProducerConsumerTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.ProducerConsumerTwo" />
+      <module name="advancedJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.ru.nikolaev.advancedjava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThreadPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.ThreadPoolTest" />
+      <module name="advancedJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.ru.nikolaev.advancedjava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaitAndNotify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.WaitAndNotify" />
       <module name="advancedJava" />
       <extension name="coverage">
         <pattern>
@@ -123,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProducerConsumerTwo" />
+        <item itemvalue="Application.WaitAndNotify" />
         <item itemvalue="Application.ProducerConsumer" />
         <item itemvalue="Application.ThreadPoolTest" />
         <item itemvalue="Application.BlockSynchronized" />
-        <item itemvalue="Application.KeySynchronized" />
-        <item itemvalue="Application.KeyVolatile" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +144,12 @@
       <workItem from="1632682084018" duration="2250000" />
       <workItem from="1632761697907" duration="6940000" />
       <workItem from="1632853217416" duration="1971000" />
-      <workItem from="1632924803194" duration="2380000" />
+      <workItem from="1632924803194" duration="3272000" />
+      <workItem from="1633468318274" duration="86000" />
+      <workItem from="1633552788657" duration="1179000" />
+      <workItem from="1633635601160" duration="2767000" />
+      <workItem from="1634239289272" duration="99000" />
+      <workItem from="1634239523401" duration="1928000" />
     </task>
     <servers />
   </component>
