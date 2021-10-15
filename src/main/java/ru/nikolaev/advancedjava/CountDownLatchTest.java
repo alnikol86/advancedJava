@@ -11,19 +11,23 @@ public class CountDownLatchTest {
         ExecutorService executorService = Executors.newFixedThreadPool(3);
 
         for (int i = 0; i < 3; i++)
-            executorService.submit(new Processor(countDownLatch));
+            executorService.submit(new Processor(i, countDownLatch));
 
         executorService.shutdown();
 
-        countDownLatch.await();
-        System.out.println("Lath has been opened, main thread is proseeding!");
+        for (int i = 0; i < 3; i++) {
+            Thread.sleep(1000);
+            countDownLatch.countDown();
+        }
     }
 }
 
 class Processor implements Runnable {
+    private int id;
     private CountDownLatch countDownLatch;
 
-    public Processor(CountDownLatch countDownLatch) {
+    public Processor(int id, CountDownLatch countDownLatch) {
+        this.id = id;
         this.countDownLatch = countDownLatch;
     }
 
@@ -35,6 +39,12 @@ class Processor implements Runnable {
             e.printStackTrace();
         }
 
-        countDownLatch.countDown();
+        try {
+            countDownLatch.await();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("Thread with id " + id + " proceeded.");
     }
 }
