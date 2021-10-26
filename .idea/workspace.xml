@@ -52,7 +52,7 @@
       <recent name="E:\Programming\Java\Java_projects\advancedJava" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BlockSynchronized">
+  <component name="RunManager" selected="Application.TestSemaphore">
     <configuration name="BlockSynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.BlockSynchronized" />
       <module name="advancedJava" />
@@ -79,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerConsumerTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.ProducerConsumerTwo" />
+    <configuration name="TestExeption" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.TestExeption" />
       <module name="advancedJava" />
       <extension name="coverage">
         <pattern>
@@ -105,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitAndNotify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.WaitAndNotify" />
+    <configuration name="TestSemaphore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.TestSemaphore" />
       <module name="advancedJava" />
       <extension name="coverage">
         <pattern>
@@ -118,24 +118,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestSemaphore" />
+        <item itemvalue="Application.TestExeption" />
         <item itemvalue="Application.BlockSynchronized" />
         <item itemvalue="Application.TestReentrantLock" />
         <item itemvalue="Application.CountDownLatchTest" />
-        <item itemvalue="Application.ProducerConsumerTwo" />
-        <item itemvalue="Application.WaitAndNotify" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +160,8 @@
       <workItem from="1633635601160" duration="2767000" />
       <workItem from="1634239289272" duration="99000" />
       <workItem from="1634239523401" duration="1928000" />
-      <workItem from="1635190139366" duration="1288000" />
+      <workItem from="1635190139366" duration="3570000" />
+      <workItem from="1635272581465" duration="3272000" />
     </task>
     <servers />
   </component>
