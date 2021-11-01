@@ -52,9 +52,9 @@
       <recent name="E:\Programming\Java\Java_projects\advancedJava" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestSemaphore">
-    <configuration name="BlockSynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.BlockSynchronized" />
+  <component name="RunManager" selected="Application.TestDeadLock">
+    <configuration name="Compar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.Compar" />
       <module name="advancedJava" />
       <extension name="coverage">
         <pattern>
@@ -66,8 +66,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountDownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.CountDownLatchTest" />
+    <configuration name="TestCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.TestCompare" />
+      <module name="advancedJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.ru.nikolaev.advancedjava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.TestDeadLock" />
       <module name="advancedJava" />
       <extension name="coverage">
         <pattern>
@@ -92,19 +105,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestReentrantLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.TestReentrantLock" />
-      <module name="advancedJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.ru.nikolaev.advancedjava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestSemaphore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.TestSemaphore" />
       <module name="advancedJava" />
@@ -118,26 +118,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestDeadLock" />
+        <item itemvalue="Application.TestCompare" />
+        <item itemvalue="Application.Compar" />
         <item itemvalue="Application.TestSemaphore" />
         <item itemvalue="Application.TestExeption" />
-        <item itemvalue="Application.BlockSynchronized" />
-        <item itemvalue="Application.TestReentrantLock" />
-        <item itemvalue="Application.CountDownLatchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +159,8 @@
       <workItem from="1634239289272" duration="99000" />
       <workItem from="1634239523401" duration="1928000" />
       <workItem from="1635190139366" duration="3570000" />
-      <workItem from="1635272581465" duration="3272000" />
+      <workItem from="1635272581465" duration="3826000" />
+      <workItem from="1635777322783" duration="9305000" />
     </task>
     <servers />
   </component>
