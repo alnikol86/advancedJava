@@ -52,7 +52,7 @@
       <recent name="E:\Programming\Java\Java_projects\advancedJava" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InterraptedTest">
+  <component name="RunManager" selected="Application.InterruptedThread">
     <configuration name="Compar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.Compar" />
       <module name="advancedJava" />
@@ -68,6 +68,19 @@
     </configuration>
     <configuration name="InterraptedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.InterraptedTest" />
+      <module name="advancedJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.ru.nikolaev.advancedjava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterruptedThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.InterruptedThread" />
       <module name="advancedJava" />
       <extension name="coverage">
         <pattern>
@@ -105,19 +118,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSemaphore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.TestSemaphore" />
-      <module name="advancedJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.ru.nikolaev.advancedjava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -133,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InterruptedThread" />
         <item itemvalue="Application.InterraptedTest" />
         <item itemvalue="Application.TestDeadLock" />
         <item itemvalue="Application.TestCompare" />
         <item itemvalue="Application.Compar" />
-        <item itemvalue="Application.TestSemaphore" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +163,10 @@
       <workItem from="1635190139366" duration="3570000" />
       <workItem from="1635272581465" duration="3826000" />
       <workItem from="1635777322783" duration="10238000" />
-      <workItem from="1635865709732" duration="1590000" />
+      <workItem from="1635865709732" duration="2372000" />
+      <workItem from="1636110853717" duration="768000" />
+      <workItem from="1636238404728" duration="2134000" />
+      <workItem from="1638208076823" duration="968000" />
     </task>
     <servers />
   </component>
