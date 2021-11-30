@@ -9,7 +9,7 @@ public class CallableAndFuture {
 
         Future<Integer> future = executorService.submit(new Callable<Integer>() {
             @Override
-            public Integer call() {
+            public Integer call() throws Exception {
                 System.out.println("Starting");
                 try {
                     Thread.sleep(1000);
@@ -19,7 +19,12 @@ public class CallableAndFuture {
                 System.out.println("Finished");
 
                 Random random = new Random();
-                return random.nextInt(10);
+                int randomValue = random.nextInt(10);
+
+                if(randomValue < 5)
+                    throw new Exception("Something bad happened");
+
+                return randomValue;
             }
         });
 
@@ -32,7 +37,8 @@ public class CallableAndFuture {
         } catch (InterruptedException e) {
             e.printStackTrace();
         } catch (ExecutionException e) {
-            e.printStackTrace();
+            Throwable ex = e.getCause();
+            System.out.println(ex.getMessage());
         }
     }
 }
