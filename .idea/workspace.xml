@@ -52,9 +52,9 @@
       <recent name="E:\Programming\Java\Java_projects\advancedJava" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InterruptedThread">
-    <configuration name="Compar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.Compar" />
+  <component name="RunManager" selected="Application.CallableAndFuture">
+    <configuration name="CallableAndFuture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.CallableAndFuture" />
       <module name="advancedJava" />
       <extension name="coverage">
         <pattern>
@@ -118,26 +118,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CallableAndFuture" />
         <item itemvalue="Application.InterruptedThread" />
         <item itemvalue="Application.InterraptedTest" />
         <item itemvalue="Application.TestDeadLock" />
         <item itemvalue="Application.TestCompare" />
-        <item itemvalue="Application.Compar" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +164,9 @@
       <workItem from="1635865709732" duration="2372000" />
       <workItem from="1636110853717" duration="768000" />
       <workItem from="1636238404728" duration="2134000" />
-      <workItem from="1638208076823" duration="968000" />
+      <workItem from="1638208076823" duration="2105000" />
+      <workItem from="1638298922222" duration="32000" />
+      <workItem from="1638299044096" duration="1018000" />
     </task>
     <servers />
   </component>
