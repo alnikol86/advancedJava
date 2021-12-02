@@ -18,18 +18,10 @@ public class lambdaTest1 {
         runner.run(new Executable() {
             @Override
             public int execute() {
-                System.out.println("Hello!1");
-                System.out.println("Goodbye!1");
-
                 return 1;
             }
         });
 
-        runner.run(() -> {
-            System.out.println("Hello!2");
-            System.out.println("Goodbye!2");
-
-            return 2;
-        });
+        runner.run(() -> 2);
     }
 }
