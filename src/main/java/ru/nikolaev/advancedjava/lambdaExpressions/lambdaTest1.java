@@ -1,12 +1,12 @@
 package main.java.ru.nikolaev.advancedjava.lambdaExpressions;
 
 interface Executable {
-    int execute(int x);
+    int execute(int x, int y);
 }
 
 class Runner {
     void run(Executable e) {
-        int i = e.execute(10);
+        int i = e.execute(10, 5);
         System.out.println(i);
     }
 }
@@ -17,11 +17,11 @@ public class lambdaTest1 {
 
         runner.run(new Executable() {
             @Override
-            public int execute(int x) {
-                return x + 1;
+            public int execute(int x, int y) {
+                return x + 1 - y;
             }
         });
 
-        runner.run(x -> x + 2);
+        runner.run((x, y) -> x + 2 - y);
     }
 }
