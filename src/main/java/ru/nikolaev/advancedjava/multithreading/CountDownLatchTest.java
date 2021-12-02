@@ -1,4 +1,4 @@
-package main.java.ru.nikolaev.advancedjava;
+package main.java.ru.nikolaev.advancedjava.multithreading;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;

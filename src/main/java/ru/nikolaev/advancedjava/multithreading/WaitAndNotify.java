@@ -1,6 +1,5 @@
-package main.java.ru.nikolaev.advancedjava;
+package main.java.ru.nikolaev.advancedjava.multithreading;
 
-import java.security.PrivilegedAction;
 import java.util.Scanner;
 
 public class WaitAndNotify {

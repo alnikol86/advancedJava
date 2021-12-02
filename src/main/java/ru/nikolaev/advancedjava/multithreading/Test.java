@@ -1,4 +1,4 @@
-package main.java.ru.nikolaev.advancedjava;
+package main.java.ru.nikolaev.advancedjava.multithreading;
 
 public class Test {
     public static void main(String[] args) throws InterruptedException {

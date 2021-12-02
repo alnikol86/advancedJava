@@ -1,8 +1,8 @@
-package main.java.ru.nikolaev.advancedjava;
+package main.java.ru.nikolaev.advancedjava.multithreading;
 
 import java.util.Random;
 
-public class InterruptedThread {
+public class InterraptedTest {
     public static void main(String[] args) throws InterruptedException {
         Thread thread = new Thread(new Runnable() {
             @Override
@@ -18,15 +18,15 @@ public class InterruptedThread {
             }
         });
 
-        System.out.println("Starting thread");
+        System.out.println("Thread started");
 
         thread.start();
 
-        Thread.sleep(5000);
+        Thread.sleep(1000);
         thread.interrupt();
 
         thread.join();
 
-        System.out.println("Thread has finished");
+        System.out.println("Thread stopped");
     }
 }

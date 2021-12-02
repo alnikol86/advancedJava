@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="751d6995-8803-49fe-9937-1a9504ef61ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/CallableAndFuture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/CallableAndFuture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/BlockSynchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/multithreading/BlockSynchronized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/CallableAndFuture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/multithreading/CallableAndFuture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/CountDownLatchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/multithreading/CountDownLatchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/InterraptedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/multithreading/InterraptedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/InterruptedThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/multithreading/InterruptedThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/KeySynchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/multithreading/KeySynchronized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/KeyVolatile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/multithreading/KeyVolatile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/ProducerConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/multithreading/ProducerConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/ProducerConsumerTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/multithreading/ProducerConsumerTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/multithreading/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/TestDeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/multithreading/TestDeadLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/TestReentrantLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/multithreading/TestReentrantLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/TestSemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/multithreading/TestSemaphore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/ThreadPoolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/multithreading/ThreadPoolTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/WaitAndNotify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/nikolaev/advancedjava/multithreading/WaitAndNotify.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,14 +66,17 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Programming\Java\Java_projects\advancedJava" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="main.java.ru.nikolaev.advancedjava" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.CallableAndFuture">
+  <component name="RunManager" selected="Application.lambdaTest1">
     <configuration name="CallableAndFuture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.CallableAndFuture" />
+      <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.multithreading.CallableAndFuture" />
       <module name="advancedJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.ru.nikolaev.advancedjava.*" />
+          <option name="PATTERN" value="main.java.ru.nikolaev.advancedjava.multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,11 +85,11 @@
       </method>
     </configuration>
     <configuration name="InterraptedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.InterraptedTest" />
+      <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.multithreading.InterraptedTest" />
       <module name="advancedJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.ru.nikolaev.advancedjava.*" />
+          <option name="PATTERN" value="main.java.ru.nikolaev.advancedjava.multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,24 +98,11 @@
       </method>
     </configuration>
     <configuration name="InterruptedThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.InterruptedThread" />
+      <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.multithreading.InterruptedThread" />
       <module name="advancedJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.ru.nikolaev.advancedjava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.TestCompare" />
-      <module name="advancedJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.ru.nikolaev.advancedjava.*" />
+          <option name="PATTERN" value="main.java.ru.nikolaev.advancedjava.multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,11 +111,11 @@
       </method>
     </configuration>
     <configuration name="TestDeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.TestDeadLock" />
+      <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.multithreading.TestDeadLock" />
       <module name="advancedJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.ru.nikolaev.advancedjava.*" />
+          <option name="PATTERN" value="main.java.ru.nikolaev.advancedjava.multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,24 +123,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration name="lambdaTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.ru.nikolaev.advancedjava.lambdaExpressions.lambdaTest1" />
+      <module name="advancedJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.ru.nikolaev.advancedjava.lambdaExpressions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lambdaTest1" />
         <item itemvalue="Application.CallableAndFuture" />
         <item itemvalue="Application.InterruptedThread" />
         <item itemvalue="Application.InterraptedTest" />
         <item itemvalue="Application.TestDeadLock" />
-        <item itemvalue="Application.TestCompare" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +186,8 @@
       <workItem from="1636238404728" duration="2134000" />
       <workItem from="1638208076823" duration="2105000" />
       <workItem from="1638298922222" duration="32000" />
-      <workItem from="1638299044096" duration="1998000" />
+      <workItem from="1638299044096" duration="2663000" />
+      <workItem from="1638470173721" duration="1172000" />
     </task>
     <servers />
   </component>
