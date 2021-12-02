@@ -1,6 +1,7 @@
 package main.java.ru.nikolaev.advancedjava.lambdaExpressions;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 public class lambdaTest1 {
@@ -26,12 +27,13 @@ public class lambdaTest1 {
 //                }
 //            }
 //        });
-
-        list.sort((o1, o2) -> {
+        Comparator<String> comparator = (o1, o2) -> {
             if(o1.length() > o2.length()) return 1;
             else if(o1.length() < o2.length()) return -1;
             else return 0;
-        });
+        };
+
+        list.sort(comparator);
 
         System.out.println(list);
     }
