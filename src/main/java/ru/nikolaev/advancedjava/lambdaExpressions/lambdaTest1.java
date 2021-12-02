@@ -22,6 +22,7 @@ public class lambdaTest1 {
             }
         });
 
-        runner.run((x, y) -> x + 2 - y);
+        int a = 10;
+        runner.run((x, y) -> x + 2 - y + a);
     }
 }
