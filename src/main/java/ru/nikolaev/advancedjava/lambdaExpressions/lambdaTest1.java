@@ -1,28 +1,38 @@
 package main.java.ru.nikolaev.advancedjava.lambdaExpressions;
 
-interface Executable {
-    int execute(int x, int y);
-}
-
-class Runner {
-    void run(Executable e) {
-        int i = e.execute(10, 5);
-        System.out.println(i);
-    }
-}
+import java.util.ArrayList;
+import java.util.List;
 
 public class lambdaTest1 {
     public static void main(String[] args) {
-        Runner runner = new Runner();
+        List<String> list = new ArrayList<>();
 
-        runner.run(new Executable() {
-            @Override
-            public int execute(int x, int y) {
-                return x + 1 - y;
-            }
+        list.add("Hello");
+        list.add("Goodbye");
+        list.add("a");
+        list.add("av");
+
+        System.out.println(list);
+
+//        list.sort(new Comparator<String>() {
+//            @Override
+//            public int compare(String o1, String o2) {
+//                if(o1.length() > o2.length()) {
+//                    return 1;
+//                } else if(o1.length() < o2.length()) {
+//                    return -1;
+//                } else {
+//                    return 0;
+//                }
+//            }
+//        });
+
+        list.sort((o1, o2) -> {
+            if(o1.length() > o2.length()) return 1;
+            else if(o1.length() < o2.length()) return -1;
+            else return 0;
         });
 
-        int a = 10;
-        runner.run((x, y) -> x + 2 - y + a);
+        System.out.println(list);
     }
 }
