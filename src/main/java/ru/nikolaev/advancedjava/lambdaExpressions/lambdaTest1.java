@@ -1,19 +1,13 @@
 package main.java.ru.nikolaev.advancedjava.lambdaExpressions;
 
 interface Executable {
-    void execute();
+    int execute();
 }
 
 class Runner {
     void run(Executable e) {
-        e.execute();
-    }
-}
-
-class ExecutableImplementation implements Executable {
-    @Override
-    public void execute() {
-        System.out.println("Hello!1");
+        int i = e.execute();
+        System.out.println(i);
     }
 }
 
@@ -21,15 +15,21 @@ public class lambdaTest1 {
     public static void main(String[] args) {
         Runner runner = new Runner();
 
-        runner.run(new ExecutableImplementation());
-
         runner.run(new Executable() {
             @Override
-            public void execute() {
-                System.out.println("Hello!2");
+            public int execute() {
+                System.out.println("Hello!1");
+                System.out.println("Goodbye!1");
+
+                return 1;
             }
         });
 
-        runner.run(() -> System.out.println("Hello!3"));
+        runner.run(() -> {
+            System.out.println("Hello!2");
+            System.out.println("Goodbye!2");
+
+            return 2;
+        });
     }
 }
